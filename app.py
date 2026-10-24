@@ -8,10 +8,10 @@ import plotly.figure_factory as ff
 import plotly.graph_objects as go
 import streamlit as st
 
-from src import analytics as A
-from src import data as D
-from src import live as L
-from src import predict as P
+import rx_analytics as A
+import rx_data as D
+import rx_live as L
+import rx_predict as P
 
 st.set_page_config(page_title="RegimeX", page_icon=":material/monitoring:", layout="wide")
 
